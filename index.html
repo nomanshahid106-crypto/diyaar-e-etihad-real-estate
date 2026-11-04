@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DIYAAR-E-ETIHAD Real Estate &amp; Builders — Rahim Yar Khan</title>
+<meta name="description" content="DIYAAR-E-ETIHAD Real Estate & Builders — industrial real estate agency in Rahim Yar Khan. Buying, selling, consultation and builders enquiries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+:root{--navy:#071a33;--navy2:#0a2547;--gold:#c9a86a;--gold2:#e8d5a8;--line:rgba(201,168,106,.35);--paper:#f6f1e6}
+body{margin:0;background:var(--navy);color:#eef2f7;font-family:Inter,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;background:linear-gradient(rgba(120,170,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(120,170,255,.07) 1px,transparent 1px),linear-gradient(rgba(120,170,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(120,170,255,.045) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px;pointer-events:none;z-index:0}
+a{color:inherit}
+.topbar{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 5vw;border-bottom:1px solid var(--line);letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--gold2)}
+.brand{font-weight:800}.brand b{color:var(--gold)}
+.topbar a{text-decoration:none;border:1px solid var(--line);padding:9px 14px}
+.hero{position:relative;z-index:1;padding:64px 5vw 30px;max-width:1240px;margin:auto}
+.kicker{letter-spacing:.42em;text-transform:uppercase;color:var(--gold);font-size:.78rem;font-weight:800}
+h1{font-family:"Playfair Display",serif;font-size:clamp(2.7rem,7vw,6.2rem);line-height:.95;margin:18px 0 10px;font-weight:900}
+h1 em{color:var(--gold);font-style:normal}
+.sub{font-family:"Playfair Display",serif;font-size:clamp(1.25rem,2.6vw,2rem);color:#dbe6f3;max-width:820px}
+.rating{display:inline-flex;gap:10px;align-items:center;border:1px solid var(--line);background:rgba(255,255,255,.05);padding:10px 16px;margin:18px 0;color:var(--gold2)}
+.stars{color:var(--gold);letter-spacing:.15em}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0}
+.btn{display:inline-block;text-decoration:none;padding:15px 22px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.82rem}
+.gold{background:var(--gold);color:#08182e}.outline{border:1px solid var(--gold);color:var(--gold2)}
+.blueprint{margin:34px auto 0;max-width:1240px;padding:0 5vw;position:relative;z-index:1}
+.frame{border:1px solid var(--gold);padding:14px;background:rgba(255,255,255,.03)}
+.frame svg{width:100%;height:auto;display:block}
+.draw{stroke:var(--gold);stroke-width:2;fill:none;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 4.5s ease forwards}
+.draw2{stroke:#7fb0ff;stroke-width:1.4;fill:none;stroke-dasharray:600;stroke-dashoffset:600;animation:draw 5.5s .4s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.grid{position:relative;z-index:1;max-width:1240px;margin:0 auto;padding:54px 5vw;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));padding:28px;min-height:230px}
+.card span{color:var(--gold);letter-spacing:.3em;font-size:.75rem}
+.card h3{font-family:"Playfair Display",serif;font-size:1.7rem;margin:12px 0}
+.card p{color:#cbd8e6}
+.card a{color:var(--gold2);font-weight:800;text-decoration:none;border-bottom:1px solid var(--gold)}
+.section{position:relative;z-index:1;max-width:1240px;margin:auto;padding:20px 5vw 60px}
+.rule{display:flex;align-items:center;gap:16px;color:var(--gold);letter-spacing:.35em;text-transform:uppercase;font-size:.75rem}.rule::after{content:"";height:1px;background:var(--line);flex:1}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:22px}
+.step{background:var(--navy2);padding:24px}.step b{font-family:"Playfair Display",serif;font-size:2.2rem;color:var(--gold)}
+.visit{background:var(--paper);color:#132033;padding:38px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px}
+.visit h2{font-family:"Playfair Display",serif;font-size:2.3rem;line-height:1.05;margin:0 0 12px}
+.visit a{color:#7a5d1e;font-weight:800}
+footer{position:relative;z-index:1;padding:30px 5vw 110px;color:#aebdd0;text-align:center;font-size:.9rem}
+.bar{display:none}
+@media(max-width:820px){.grid,.process,.visit{grid-template-columns:1fr}.topbar span:last-child{display:none}.bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20}.bar a{flex:1;text-align:center;padding:16px;text-decoration:none;font-weight:900}.bar a:first-child{background:#fff;color:#071a33}.bar a:last-child{background:#25D366;color:#062b18}}
+.reveal{animation:rise 1s ease both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="brand">DIYAAR <b>— E —</b> ETIHAD</div><span>Real Estate &amp; Builders</span><a href="https://www.google.com/maps/search/?api=1&query=DIYAAR-E-ETIHAD+Real+Estate+Rahim+Yar+Khan">View Map ↗</a></header>
+<main>
+<section class="hero reveal">
+<div class="kicker">Industrial Real Estate Agency · Rahim Yar Khan</div>
+<h1>Built on<br><em>Blueprints.</em><br>Backed by Trust.</h1>
+<p class="sub">DIYAAR-E-ETIHAD Real Estate &amp; Builders Rahim Yar Khan — property consultation, buying and selling enquiries, and builders enquiries handled with an architect's eye for detail.</p>
+<div class="rating"><span class="stars">★★★★★</span><span><strong>5.0 stars</strong> (5 reviews) on Google</span></div>
+<div class="ctas"><a class="btn gold" href="https://wa.me/923023777723?text=Hello%20DIYAAR-E-ETIHAD%2C%20I%20have%20a%20property%20enquiry">WhatsApp Enquiry</a><a class="btn outline" href="tel:+923023777723">Call +92 302 3777723</a></div>
+</section>
+<div class="blueprint"><div class="frame" aria-label="Animated architectural blueprint skyline">
+<svg viewBox="0 0 1000 300" role="img" aria-label="Blueprint skyline drawing">
+<path class="draw" d="M30 260 H970 M60 260 V110 H180 V260 M95 145 H145 M95 180 H145 M95 215 H145 M220 260 V70 H360 V260 M255 110 H325 M255 155 H325 M255 200 H325 M410 260 V140 H540 V260 M445 175 H505 M445 215 H505 M590 260 V50 L670 95 V260 M720 260 V120 H880 V260 M755 160 H845 M755 205 H845"/>
+<path class="draw2" d="M30 40 H420 M580 40 H970 M120 260 V285 M880 260 V285 M500 20 V285"/>
+<circle class="draw2" cx="630" cy="52" r="22"/>
+</svg>
+</div></div>
+<section class="grid">
+<article class="card"><span>01 / BUYING</span><h3>Buying Enquiries</h3><p>Tell us what kind of property you are looking for in Rahim Yar Khan and discuss suitable options directly with the agency.</p><a href="https://wa.me/923023777723?text=I%20want%20to%20buy%20a%20property">Start on WhatsApp →</a></article>
+<article class="card"><span>02 / SELLING</span><h3>Selling Enquiries</h3><p>Own a property you want to sell? Share the details and get a considered, professional conversation about the next step.</p><a href="https://wa.me/923023777723?text=I%20want%20to%20sell%20a%20property">Discuss Selling →</a></article>
+<article class="card"><span>03 / BUILDERS</span><h3>Builders &amp; Construction</h3><p>Construction and builders enquiries welcome — from first consultation through to planning your project properly.</p><a href="https://wa.me/923023777723?text=I%20have%20a%20builders%20enquiry">Ask a Builder →</a></article>
+</section>
+<section class="section">
+<div class="rule">The Process</div>
+<div class="process">
+<div class="step"><b>I.</b><h3>Consult</h3><p>Share your requirement by call or WhatsApp.</p></div>
+<div class="step"><b>II.</b><h3>Understand</h3><p>We discuss location, purpose and budget openly.</p></div>
+<div class="step"><b>III.</b><h3>Explore</h3><p>Review options suited to your enquiry.</p></div>
+<div class="step"><b>IV.</b><h3>Decide</h3><p>Move forward only when the fit feels right.</p></div>
+</div>
+</section>
+<section class="section">
+<div class="rule">Why Diyaar-e-Etihad</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px" class="whygrid">
+<div style="border-left:3px solid var(--gold);padding:6px 0 6px 22px"><h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin:0 0 8px">A Perfect Google Rating</h3><p style="color:#cbd8e6">Rated 5.0 stars from 5 reviews on Google — a small, perfect record that reflects careful, personal dealing with every enquiry that comes through the door.</p></div>
+<div style="border-left:3px solid var(--gold);padding:6px 0 6px 22px"><h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin:0 0 8px">Real Estate + Builders, Together</h3><p style="color:#cbd8e6">Most agencies only deal. As a real estate agency and builders practice together, your conversation can cover both finding the right property and what could be built or improved on it.</p></div>
+<div style="border-left:3px solid var(--gold);padding:6px 0 6px 22px"><h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin:0 0 8px">Industrial Expertise</h3><p style="color:#cbd8e6">Listed as an industrial real estate agency, the team is well placed for industrial property enquiries around Rahim Yar Khan, as well as general buying and selling consultation.</p></div>
+<div style="border-left:3px solid var(--gold);padding:6px 0 6px 22px"><h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin:0 0 8px">Easy to Reach, Easy to Find</h3><p style="color:#cbd8e6">Find us at Darri Sanghi Pull on Abu Dhabi Road, near Earles Cafe — or skip the trip and start the whole conversation on WhatsApp in one tap.</p></div>
+</div>
+<style>@media(max-width:820px){.whygrid{grid-template-columns:1fr!important}}</style>
+</section>
+<section class="section">
+<div class="rule">Common Questions</div>
+<div style="margin-top:22px;display:grid;gap:12px">
+<details style="border:1px solid var(--line);padding:18px 20px;background:rgba(255,255,255,.03)"><summary style="cursor:pointer;font-weight:800;color:var(--gold2)">How do I make a buying or selling enquiry?</summary><p style="color:#cbd8e6">Simply call <a href="tel:+923023777723">+92 302 3777723</a> or message on WhatsApp. Tell us whether you are buying or selling, the general area you are interested in, and what you are hoping for — the team will take it from there.</p></details>
+<details style="border:1px solid var(--line);padding:18px 20px;background:rgba(255,255,255,.03)"><summary style="cursor:pointer;font-weight:800;color:var(--gold2)">Can I ask about construction or building work?</summary><p style="color:#cbd8e6">Yes. Builders and construction enquiries are part of what this business does. Share the nature of your project on WhatsApp and ask for a consultation.</p></details>
+<details style="border:1px solid var(--line);padding:18px 20px;background:rgba(255,255,255,.03)"><summary style="cursor:pointer;font-weight:800;color:var(--gold2)">Do you deal in industrial property?</summary><p style="color:#cbd8e6">The business is listed as an industrial real estate agency in Rahim Yar Khan. For any industrial property enquiry, contact the office directly to discuss your requirement in detail.</p></details>
+<details style="border:1px solid var(--line);padding:18px 20px;background:rgba(255,255,255,.03)"><summary style="cursor:pointer;font-weight:800;color:var(--gold2)">Where is the office located?</summary><p style="color:#cbd8e6">Darri Sanghi Pull, Abu Dhabi Road, near Earles Cafe, Rahim Yar Khan, 64200, Pakistan. Tap the Google Maps link on this page for directions.</p></details>
+</div>
+<div style="margin-top:28px;border:1px solid var(--gold);padding:30px;text-align:center;background:linear-gradient(180deg,rgba(201,168,106,.14),rgba(201,168,106,.03))">
+<div style="letter-spacing:.35em;text-transform:uppercase;color:var(--gold);font-size:.72rem">Start With a Conversation</div>
+<h2 style="font-family:'Playfair Display',serif;font-size:2rem;margin:12px 0">Your next property move begins with one message.</h2>
+<p style="color:#dbe6f3;max-width:640px;margin:0 auto 18px">No listings to scroll, no pressure to decide. Just a direct consultation about buying, selling, industrial property or building — on your terms.</p>
+<a class="btn gold" href="https://wa.me/923023777723?text=Hello%2C%20I%20would%20like%20a%20property%20consultation">Request a Consultation</a>
+</div>
+</section>
+<section class="section"><div class="visit">
+<div><h2>Visit us on Abu Dhabi Road.</h2><p><strong>DIYAAR-E-ETIHAD Real Estate &amp; Builders Rahim Yar Khan</strong><br>Industrial real estate agency<br>Darri Sanghi Pull, Abu Dhabi Road, near Earles Cafe, Rahim Yar Khan, 64200, Pakistan</p><p><a href="https://www.google.com/maps/search/?api=1&query=DIYAAR-E-ETIHAD+Real+Estate+Rahim+Yar+Khan">Open in Google Maps ↗</a></p></div>
+<div><h3>Direct Contact</h3><p>Phone: <a href="tel:+923023777723">+92 302 3777723</a></p><p>WhatsApp: <a href="https://wa.me/923023777723">Chat now</a></p><p>Rating: 5.0 stars (5 reviews)</p></div>
+</div></section>
+<section class="section"><div style="border-top:1px solid var(--line);padding-top:20px;color:#cbd8e6;text-align:center"><p><strong style="color:var(--gold2)">A note on enquiries:</strong> This page does not publish listings, prices or availability, because the right property conversation is personal. Contact DIYAAR-E-ETIHAD directly by phone or WhatsApp for buying, selling, industrial property, consultation and builders enquiries in Rahim Yar Khan — and visit us near Earles Cafe on Abu Dhabi Road for a face-to-face discussion whenever you prefer.</p></div></section>
+</main>
+<footer><p><strong>DIYAAR-E-ETIHAD Real Estate &amp; Builders Rahim Yar Khan</strong> — Industrial real estate agency</p><p>Sample website prototype made for demonstration — not the official website of this business.</p></footer>
+<div class="bar"><a href="tel:+923023777723">☎ Call Now</a><a href="https://wa.me/923023777723">WhatsApp</a></div>
+</body>
+</html>
